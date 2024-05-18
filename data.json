@@ -1,0 +1,70 @@
+{"algo":
+    {
+        "przywitanie": {
+            "keywords": {
+                "multiple_keyword": false,
+                "multiple_extended": false,
+                "declination_keyword": false,
+                "declination_extended": false,
+                "keyword": ["siema", "hej", "cześć", "witaj", "witam"],
+                "extended": false,
+                "response": ["przywitanie"]
+            }
+        },
+        "godzina": {
+            "keywords": {
+                "multiple_keyword": false,
+                "multiple_extended": false,
+                "declination_keyword": false,
+                "declination_extended": false,
+                "keyword": ["godzina"],
+                "extended": ["która", "jest"],
+                "response": false
+            }
+        },
+        "pogoda_dzis": {
+            "keywords": {
+                "multiple_keyword": false,
+                "multiple_extended": false,
+                "declination_keyword": true,
+                "declination_extended": false,
+                "keyword": ["pogoda"],
+                "extended": ["dziś", "dzisiaj", "teraz"],
+                "response": ["pogoda dzis"]
+            }
+        },
+        "pogoda_jutro": {
+            "keywords": {
+                "multiple_keyword": false,
+                "multiple_extended": false,
+                "declination_keyword": true,
+                "declination_extended": false,
+                "keyword": ["pogoda"],
+                "extended": ["jutro", "jutrzejsza"],
+                "response": ["pogoda jutro"]
+            }
+        },
+        "pogoda_pojutrze": {
+            "keywords": {
+                "multiple_keyword": false,
+                "multiple_extended": false,
+                "declination_keyword": true,
+                "declination_extended": false,
+                "keyword": ["pogoda"],
+                "extended": ["pojutrze"],
+                "response": ["pogoda pojutrze"]
+            }
+        },
+        "test":{
+            "keywords": {
+                "multiple_keyword": false,
+                "multiple_extended": false,
+                "declination_keyword": false,
+                "declination_extended": false,
+                "keyword": ["test"],
+                "extended": false,
+                "response": ["dziala"]
+            }
+        }
+    }
+}
