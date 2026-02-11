@@ -1,4 +1,4 @@
-#virtual_assistant (NLP)
+# virtual_assistant (NLP)
 Inteligentny asystent wykorzystujący przetwarzanie języka naturalnego.
 Eksperymentalny projekt asystenta głosowego/tekstowego, badający możliwości integracji sztucznej inteligencji z codziennymi zadaniami.
 
